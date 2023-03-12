@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 80px;
+}
+
+#letters {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    font-family: 'Comic Sans MS', sans-serif;
+    margin-bottom: 40px;
+}
+
+#letters div {
+    font-size: 2rem;
+    width: 70px;
+    height: 70px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    color: rgb(2, 132, 2);
+    padding-top: 12px;
+}
+
+#letters div:hover {
+background-color: aquamarine;
+}
+
+#letters div.used {
+    background-color: rgb(196, 194, 194);
+    opacity: 0.5;
+}
+
+#clue p {
+    margin: 0;
+    font-size: 3rem;
+    letter-spacing: 0.5em;
+    font-family: 'Comic Sans MS', sans-serif;
+    margin-bottom: 20px;
+ }
+
+section#gameover p {
+    font-size: 1rem;
+    display: none;
+}
